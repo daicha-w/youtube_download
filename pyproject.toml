@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "youtube-download"
+version = "0.1.0"
+description = ""
+authors = ["daicha-w <58203483+daicha-w@users.noreply.github.com>"]
+readme = "README.md"
+packages = [{include = "youtube_download"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+yt-dlp = "^2023.7.6"
+ffmpeg = "^1.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
