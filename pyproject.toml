@@ -8,7 +8,7 @@ packages = [{include = "youtube_download"}]
 
 [tool.poetry.dependencies]
 python = "^3.11"
-yt-dlp = "^2023.7.6"
+yt-dlp = "^2024.04.09"
 ffmpeg = "^1.4"
 
 
